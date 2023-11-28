@@ -1,14 +1,11 @@
-to = list(input())[:-1]
-fr = list(input())[:-1]
+to = list(input())
+fr = list(input())
 n = len(to)
-diff = []
-for i in range(n):
-    if to[i] != fr[i]:
-        diff.append(i)
-n2 = len(diff)
-if n2 % 2 == 1:
-    print("error") 
 ans = 0
-for i in range(0,n2,2):
-    ans += diff[i+1] - diff[i]
+for i in range(n-1):
+    if to[i] != fr[i]:
+        to[i+1] = '*' if to[i+1] == 'o' else 'o'
+        ans += 1
 print(ans)
+
+# 简单模拟, 注意在读入的时候把后面的回车也读入进去了, 所以正好不用处理边界 
