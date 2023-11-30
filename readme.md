@@ -1,3 +1,4 @@
+# 蓝桥杯省赛真题(洛谷链接)
 - [P8597 [蓝桥杯 2013 省 B] 翻硬币](https://www.luogu.com.cn/problem/P8597)
 - [P8598 [蓝桥杯 2013 省 AB] 错误票据](https://www.luogu.com.cn/problem/P8598)
 - [P8599 [蓝桥杯 2013 省 B] 带分数](https://www.luogu.com.cn/problem/P8599)
